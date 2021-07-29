@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.container1 {
+  max-width: 1280px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.secao1 {
+  width: 98%;
+  margin: 5px auto;
+  background: #fff;
+  padding: 10px;
+  border: 2px solid rgb(139, 139, 139);
+  border-radius: 10px;
+}
+
+.secao2 {
+  width: 96%;
+  margin: 30px auto;
+  background: #fff;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.entraDiv {
+  animation-name: slide;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+  transform: translateX(-100px);
+}
+
+h1 {
+  text-align: center;
+}
+
+@keyframes slide {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+button a {
+	color: white;
+	text-decoration: none !important; 
+	font-weight: bold;
+	padding: 0 3em;
+	display: block;
+	line-height: 2.5em;
+}
+
+button a:hover {
+	color: #44cade;
+}
+
+i.close {
+  color: gray;
+  cursor: pointer;
+}
+
+i#fechado:hover {
+  color: red;
+}

@@ -88,7 +88,7 @@
 			<main class="m-5"> 
 				<h4 class="text-center mt-5"><strong><em>Responsáveis</em></strong></h4>
 				<div class="form-group">
-					<label>Bruna Steudel - Rede Super (Comunicação)</label>
+					<label>Rede Super (Comunicação)</label>
 					<select id="sel1" class="form-control list-group" onchange="criaClasseSelectResp('sel1', this.value)" disabled>
 						<option class="list-group-item">---</option>
 						<option <?php echo $responsaveisEvento[0]->{'rede_super'} == 0  ? 'selected' : ''; ?> value="0" class="list-group-item-danger">Não Necessário</option>
@@ -102,7 +102,7 @@
 				<br>
 
 				<div class="form-group">
-					<label>Tânia Machado - Operações (Comunicação)</label>
+					<label>Operações (Comunicação)</label>
 					<select id="sel2" class="form-control list-group" onchange="criaClasseSelectResp('sel2', this.value)" disabled>
 						<option class="list-group-item">---</option>
 						<option <?php echo $responsaveisEvento[0]->{'operacoes'} == 0  ? 'selected' : ''; ?> value="0" class="list-group-item-danger">Não Necessário</option>
@@ -116,7 +116,7 @@
 				<br>
 
 				<div class="form-group">
-					<label>Emanuel - Engenharia (ADM)</label>
+					<label>Engenharia (ADM)</label>
 					<select id="sel3" class="form-control list-group" onchange="criaClasseSelectResp('sel3', this.value)" disabled>
 						<option class="list-group-item">---</option>
 						<option <?php echo $responsaveisEvento[0]->{'engenharia'} == 0  ? 'selected' : ''; ?> value="0" class="list-group-item-danger">Não Necessário</option>
@@ -130,7 +130,7 @@
 				<br>
 
 				<div class="form-group">
-					<label>Morbeque - Sonotécnica (ADM)</label>
+					<label>Sonotécnica (ADM)</label>
 					<select id="sel4" class="form-control list-group" onchange="criaClasseSelectResp('sel4', this.value)" disabled>
 						<option class="list-group-item">---</option>
 						<option <?php echo $responsaveisEvento[0]->{'sonotecnica'} == 0  ? 'selected' : ''; ?> value="0" class="list-group-item-danger">Não Necessário</option>
@@ -144,7 +144,7 @@
 				<br>
 
 				<div class="form-group">
-					<label>Naiana - Agenda (ADM)</label>
+					<label>Agenda (ADM)</label>
 					<select id="sel5" class="form-control list-group" onchange="criaClasseSelectResp('sel5', this.value)" disabled>
 						<option class="list-group-item">---</option>
 						<option <?php echo $responsaveisEvento[0]->{'agenda_pib'} == 0  ? 'selected' : ''; ?> value="0" class="list-group-item-danger">Não Necessário</option>
@@ -158,7 +158,7 @@
 				<br>
 
 				<div class="form-group">
-					<label>Albert - Grupo Gestor</label>
+					<label>Grupo Gestor</label>
 					<select id="sel6" class="form-control list-group" onchange="criaClasseSelectResp('sel6', this.value)" disabled>
 						<option class="list-group-item">---</option>
 						<option <?php echo $responsaveisEvento[0]->{'grupo_gestor'} == 0  ? 'selected' : ''; ?> value="0" class="list-group-item-danger">Não Necessário</option>
